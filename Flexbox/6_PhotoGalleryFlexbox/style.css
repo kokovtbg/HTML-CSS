@@ -1,0 +1,22 @@
+body, ul, li, div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: lightgray;
+}
+
+ul {
+    justify-content: space-between;
+}
+
+div {
+    padding: 15px;
+    margin: 15px;
+    border: 5px solid black;
+    background-color: white;
+    align-items: center;
+}

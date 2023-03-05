@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.masonry h2 {
+    flex: 1 0 auto;
+}
+
+section, footer, img {
+    background-color: white;
+    width: 100%;
+}
+
+footer {
+    border-top: 1px solid lightgray;
+}
+
+.cards-layout {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+
+.masonry .card, .flex .card {
+    width: 30%;
+}
+
+.masonry {
+    flex-direction: column;
+    height: 1700px;
+}
+
+.flex h2 {
+    flex-basis: 100%;
+}

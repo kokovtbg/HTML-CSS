@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+    .thumbnails {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .thumbnails > div {
+        flex-basis: 100%;
+        margin-bottom: 2em;
+    }
+
+    .thumbnails a img {
+        height: 300px;
+    }
+}

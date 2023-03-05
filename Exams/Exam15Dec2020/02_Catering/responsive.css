@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+    .w3-top article article {
+        display: none;
+    }
+
+    #about article:nth-child(1) {
+        display: none;
+    }
+
+    #about {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #about article {
+        flex-basis: 100%;
+    }
+
+    #menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #menu article {
+        flex-basis: 100%;
+    }
+}

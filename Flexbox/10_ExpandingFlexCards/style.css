@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.first-kind {
+    width: 100px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.second-kind {
+    padding: 0px 15px;
+    background-color: black;
+}

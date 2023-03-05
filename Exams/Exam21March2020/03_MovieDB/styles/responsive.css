@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    .main-movie-poster {
+        display: none;
+    }
+
+    .main-movie ul li {
+        padding: 0;
+        flex-basis: 100%;
+    }
+    .main-movie-trailer iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .main-movie ul {
+        width: 100%;
+    }
+
+    .movie-list {
+        flex-wrap: wrap;
+    }
+
+    .movies {
+        margin-bottom: 50px;
+    }
+
+    .movies.classics {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .movie-list li {
+        flex-basis: 100%;
+    }
+}

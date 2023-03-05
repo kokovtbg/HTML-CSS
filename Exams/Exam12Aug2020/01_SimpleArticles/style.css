@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@300;400;500;600&display=swap');
+@import 'https://use.fontawesome.com/releases/v6.2.1/css/all.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+p {
+    font-family: Lato;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.container section {
+    flex-basis: 47%;
+}
+
+.info {
+    background-color: #e3f3fd;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px;
+}
+
+.info h2 {
+    margin-bottom: 16px;
+}
+
+.info i {
+    color: #44a9f8;
+    margin-right: 8px;
+}
+
+.info p {
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.price {
+    text-align: center;
+    border-radius: 4px;
+    border: 5px solid #44a9f8;
+}
+
+.price-span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #44a9f8;
+}
+
+.month {
+    font-size: 18px;
+}
+
+.price h2 {
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.price p {
+    margin-bottom: 20px;
+}
+
+.price button {
+    border: none;
+    color: white;
+    background-color: #44a9f8;
+    padding: 8px 32px;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}

@@ -1,0 +1,35 @@
+@import 'https://use.fontawesome.com/releases/v6.2.1/css/all.css';
+
+.card {
+    display: block;
+}
+
+.viewport:nth-child(2) {
+    background-image: linear-gradient(to right, rgb(245, 108, 131), rgb(201, 133, 6));
+}
+
+.viewport:nth-child(1) {
+    background-image: linear-gradient(to right, rgb(83, 83, 249), rgb(95, 209, 95));
+}
+
+.viewport {
+    position: relative;
+    height: 850px;
+}
+
+.card {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+i {
+    position: relative;
+    right: 80px;
+    bottom: 20px;
+    font-size: 50px;
+    color: white;
+}

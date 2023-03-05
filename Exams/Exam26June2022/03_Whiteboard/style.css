@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import 'https://use.fontawesome.com/releases/v6.2.1/css/all.css';
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-section {
+    background-image: url('image/computer-main.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-wrap: wrap;
+    color:  white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.header-div {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header-section a {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-decoration: none;
+}
+
+.header-section h1, .header-section > p {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header-section h1 {
+    font-size: 48px;
+    margin: 24px 0px 16px 0px;
+}
+
+.header-section p {
+    font-size: 20px;
+    margin: 16px 0px 32px 0px;
+}
+
+.link {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.buy {
+    padding: 8px 24px;
+    background-color: rgb(96, 216, 176);
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-section img {
+    width: 50%;
+}
+
+.main-section .main-section-first {
+    box-sizing: border-box;
+    padding: 16px 48px;
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.main-section .main-section-first p i {
+    color: rgb(96, 216, 176);
+    margin-right: 24px;
+}
+
+.main-section .main-section-first p  {
+    flex-basis: 100%;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+.main-section-second {
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-section-second h2 {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.main-section-second div:not(.images) {
+    flex-basis: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.main-section-second p {
+    color: rgb(96, 216, 176);
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.footer-section {
+    background-color: rgb(96, 216, 176);
+    flex-basis: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section h2 {
+    flex-basis: 100%;
+}
+
+.footer-section article {
+    flex-basis: 30%;
+    box-sizing: border-box;
+    padding: 15px;
+}

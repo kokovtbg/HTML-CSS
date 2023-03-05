@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import 'https://use.fontawesome.com/releases/v6.2.1/css/all.css';
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+    background-color: lightgray;
+}
+
+main {
+    width: 60%;
+    margin: 50px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    box-sizing: border-box;
+    padding: 36px;
+}
+
+.welcome {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-image: url('image/cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    color: white;
+}
+
+.welcome h3 {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.welcome h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+}
+
+.icons i:not(:nth-child(1)) {
+    margin-left: 12px;
+}
+
+.form-section {
+    flex-basis: 50%;
+    background-color: white;
+}
+
+.form-section label {
+    padding: 12px 0px;
+}
+
+.form-section form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-section form input, .form-section form label {
+    flex-basis: 100%;
+}
+
+.form-section form input {
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+}
+
+.form-section form label {
+    color: gray;
+}
+
+.form-section form button {
+    margin-top: 36px;
+    padding: 12px 32px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 32px;
+} 
+
+.form-section form a {
+    margin-top: 36px;
+    padding: 12px 12px;
+    color: gray;
+}

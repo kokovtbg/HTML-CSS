@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+/* 
+blue - #03eefd
+bg-blue - #d9ebeb
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    font-family: 'Open Sans';
+}
+
+.earth {
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid white;
+}
+
+.earth > h1 {
+    font-size: 32px;
+    color: #03eefd;
+    background-color: black;
+    padding-left: 12px;
+}
+
+.earth > h2 {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+.info {
+    background-color: white;
+    padding: 24px 24px 24px 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+.image {
+    flex-basis: 40%;
+    padding: 4px 12px;
+    border: 1px solid black;
+}
+
+.image img {
+    width: 100%;
+}
+
+.image p {
+    font-weight: 300;
+    font-size: 14px;
+}
+ 
+.text {
+    flex-basis: 60%;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.facts {
+    background-color: white;
+
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.facts h2 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+}
+
+.facts div {
+    background-color: #d9ebeb;
+    padding: 16px;
+}
+
+.light {
+    font-weight: 300;
+}

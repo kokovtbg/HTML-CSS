@@ -1,0 +1,33 @@
+@media (max-width: 600px) {
+    .tm-header-inner {
+        padding: 40px 10px;
+    }
+
+    .tm-nav {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .tm-section-title {
+        margin-left: auto;
+    }
+
+    .tm-gallery {
+        margin-left: auto;
+    }
+
+    .tm-gallery-page {
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .tm-gallery-item {
+        flex-basis: 100%;
+    }
+
+    .tm-cta-section {
+        width: 100%;
+    }
+}

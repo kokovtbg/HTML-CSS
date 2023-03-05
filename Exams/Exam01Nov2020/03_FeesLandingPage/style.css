@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+h1, h2, h3 {
+    font-family: Montserrat;
+}
+
+main {
+    position: relative;
+}
+
+header {
+    display: flex;
+    padding: 8px 42px;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgb(56, 1, 56);
+    font-family: Lato;
+}
+
+.softuni {
+    flex-basis: 10%;
+    margin-right: auto;
+}
+
+.purple {
+    background-color: rgb(56, 1, 56);
+    color: white;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    height: 350px;
+}
+
+.tax {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+
+    text-align: center;
+    height: 400px;
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tax article section {
+    height: 80px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tax article section.green h3 {
+    flex-basis: 100%;
+}
+
+.tax article section h3:nth-of-type(2) {
+    font-size: 14px;
+}
+
+.tax article section.half div {
+    flex-basis: 50%;
+    padding: 6px;
+}
+
+.tax article section.half div:nth-of-type(1) {
+    border-right: 2px solid white;
+}
+
+.tax article h2, .tax article p {
+    padding: 6px;
+}
+
+.tax h1 {
+    flex-basis: 100%;
+    font-size: 32px;
+}
+
+.tax article h2 {
+    color: rgb(56, 1, 56);
+}
+
+.darkgray {
+    color: rgb(56, 56, 56);
+}
+
+.white {
+    color: white;
+}
+
+.size-18 {
+    font-size: 18px;
+}
+
+.tax article {
+    flex-basis: 30%;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.green {
+    background-image: linear-gradient(to right, rgb(25, 204, 25), rgb(135, 201, 145));
+    color: white;
+}
+
+.blue {
+    background-image: linear-gradient(to right, rgb(29, 9, 90), rgb(135, 119, 185));
+    color: white;
+}
+
+.purple-grad {
+    background-image: linear-gradient(to right, rgb(71, 3, 71), rgb(182, 120, 182));
+    color: white;
+}
+
+.tax article a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: purple;
+    padding: 16px 32px;
+    border-radius: 24px;
+}
+
+.bigger {
+    font-size: 24px;
+}
+
+.tax article {
+    box-shadow: 1px 1px 1px;
+}
+
+.buffer {
+    height: 200px;
+}
+
+.tables {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+table td {
+    font-family: Montserrat;
+    padding: 12px;
+}
+
+.tables h2 {
+    margin-bottom: 18px;
+}
+
+.tables h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.tables table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tables table tr:nth-child(odd) {
+    background-color: rgb(178, 178, 178);
+}
+
+.tables tr:nth-child(even) {
+    background-color: rgb(222, 222, 222);
+}
+
+.postbank {
+    width: 80%;
+    margin: 0 auto 50px auto;
+    padding: 24px;
+
+    display: flex;
+}
+
+.postbank h2 {
+    margin-bottom: 24px;
+}
+
+.postbank h3 {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.postbank h3:nth-of-type(1) {
+    margin-bottom: 16px;
+}
+
+.postbank-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(56, 1, 56);
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+body {
+    font-family: Mulish, sans-serif;
+    background-image: url('images/background.png');
+    background-size: cover;
+    padding: 25px;
+}
+
+form {
+    background-image: url('images/form-background.png');
+    background-size: cover;
+    margin: auto;
+    width: 50%;
+    margin-top: 80px;
+    padding: 50px 36px 36px 36px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 36px;
+}
+
+h2 {
+    text-transform: uppercase;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    flex-basis: 100%;
+}
+
+label {
+    font-size: 14px;
+    padding: 12px;
+}
+
+label, input {
+    color: gray;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 36px;
+    height: 32px;
+}
+
+.bigger-size {
+    width: 50%;
+}
+
+.first-div {
+    flex-basis: 25%;
+}
+
+.second-div {
+    flex-basis: 75%;
+}
+
+.first-div input {
+    width: 90%;
+}
+
+.second-div input {
+    width: 33%;
+}
+
+.other-div {
+    flex-basis: 100%;
+}
+
+label {
+    display: block;
+}
+
+.inline-label {
+    display: inline-block;
+}
+
+.checkbox-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button-div {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+button {
+    padding: 8px 24px;
+    background-color: rgb(171, 17, 17);
+    color: white;
+    border: none;
+    border-radius: 16px;
+    text-transform: uppercase;
+}

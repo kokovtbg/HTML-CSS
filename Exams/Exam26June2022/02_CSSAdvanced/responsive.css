@@ -1,0 +1,94 @@
+@media (max-width: 600px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    section, article {
+        box-sizing: border-box;
+    }
+
+    main {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+
+    .left-to-right {
+        width: 100%;
+        display: flex;
+    }
+    
+    .left-to-right:first-child {
+        padding: 0;
+        height: auto;
+        padding: 25px 25px 50px 25px;
+    }
+
+    main .left-to-right article {
+        flex-basis: 100%;
+        height: auto;
+        padding: 15px;
+        border-radius: 16px;
+    }
+
+    .left-to-right article h1 {
+        font-size: 32px;
+    }
+
+    .left-to-right article p {
+        font-size: 14px;
+    }
+
+    .left-to-right article button {
+        display: none;
+    }
+
+    main section:nth-child(2) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main section:nth-child(2) h1 {
+        font-size: 32px;
+    }
+
+    main section:nth-child(2) p {
+        font-size: 14px;
+    }
+
+    main section:nth-child(2) button {
+        display: none;
+    }
+
+    main section:nth-child(2) article {
+        flex-basis: 100%;
+    }
+
+    main section:nth-child(4) {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    main section:nth-child(4) article {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 15px;
+        width: 100%;
+    }
+
+    main section:nth-child(4) article form {
+        width: 100%;
+    }
+
+    main section:nth-child(4) article label[for="send"] {
+        display: flex;
+        justify-content: center;
+    }
+
+    main section:nth-child(4) article form input[type="text"], 
+    main section:nth-child(4) article form textarea, 
+    main section:nth-child(4) article form input[type="email"] {
+        width: 80%;
+    }
+}

@@ -1,0 +1,164 @@
+@media (max-width: 468px) {
+    .div-header {
+        display: none;
+    }
+    
+    .logo-center {
+        width: 30%;
+    }
+    
+    header h3 {
+        font-size: 18px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    .button-header {
+        margin: 50px 0 50px 0;
+    }
+
+    .options {
+        flex-wrap: wrap;
+    }
+
+    .options article {
+        flex-basis: 100%;
+
+        text-align: center;
+    }
+
+    .gallery {
+        flex-wrap: wrap;
+    }
+
+    .gallery article {
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        margin-bottom: 24px;
+    }
+
+    .gallery article p {
+        flex-basis: 100%;
+    }
+
+    .gallery article div {
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery article div a {
+        margin: auto;
+    }
+
+    .gallery article > img {
+        flex-basis: 80%;
+        margin: 0 auto;
+    }
+
+    .blog-title {
+        padding: 24px 0;
+        width: 100%;
+    }
+
+    .blog-title h4 span {
+        display: none;
+    }
+
+    .blog-title a {
+        display: none;
+    }
+
+    .blog-title h4 {
+        font-size: 32px;
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .blog article img {
+        display: none;
+    }
+
+    #about-blog {
+        width: 90%;
+    }
+
+    .magazine-title {
+        padding: 0 26px 0 12px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .magazine-title h4 {
+        font-size: 32px;
+        flex-basis: 100%;
+    }
+
+    .magazine-title a {
+        display: none;
+    }
+
+    .magazine article {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    #magazine-img {
+        width: 80%;
+        border: none;
+        padding: 0;
+    }
+
+    .magazine-info {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .magazine-info img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .magazine-info h2 {
+        flex-basis: 100%;
+    }
+
+    .magazine-info h3 {
+        margin-bottom: 25px;
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .magazine-info p {
+        text-align: center;
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }
+
+    .magazine-info button {
+        margin: 0 auto;
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+
+    footer .icons {
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer .icons a {
+        flex-basis: 100%;
+    }
+
+    footer .icons a:not(:last-of-type) {
+        margin-bottom: 12px;
+    }
+}

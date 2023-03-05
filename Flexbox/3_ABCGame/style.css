@@ -1,0 +1,70 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    max-width: 15vw;
+    height: 35rem;
+    flex-wrap: wrap;
+}
+
+span {
+    border: 1px solid black;
+    padding: 5px;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.one {
+    order: 1;
+}
+
+.two {
+    order: 2;
+}
+
+.three {
+    order: 3;
+}
+
+.four {
+    order: 4;
+}
+
+.five {
+    order: 5;
+}
+
+.six {
+    order: 6;
+}
+
+.seven {
+    order: 7;
+}
+
+.eight {
+    order: 8;
+}
+
+.nine {
+    order: 9;
+}
+
+.ten {
+    order: 10;
+}
+
+.eleven {
+    order: 11;
+}
+
+.twelve {
+    order: 12;
+}

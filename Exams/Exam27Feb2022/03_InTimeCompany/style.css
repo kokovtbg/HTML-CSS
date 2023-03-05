@@ -1,0 +1,250 @@
+@import 'https://use.fontawesome.com/releases/v6.2.1/css/all.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    color: rgb(77, 76, 76);
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 12px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.blue {
+    color: rgb(97, 156, 176);
+}
+
+.underline {
+    border-bottom: 3px solid rgb(97, 156, 176);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+main img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.welcome {
+    text-align: center;
+    padding: 25px 120px 50px 120px;
+}
+
+.welcome h1 {
+    font-size: 32px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.welcome hr {
+    width: 150px;
+    color: rgb(97, 156, 176);
+    border: 2px solid rgb(97, 156, 176);
+    margin-bottom: 16px;
+}
+
+.welcome p {
+    font-size: 20px;
+}
+
+.welcome a {
+    padding: 12px 32px;
+    background-color: rgb(77, 76, 76);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 24px;
+}
+
+.service {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 25px 120px 50px 120px;
+    background-color: rgb(227, 227, 227);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.all-width {
+    flex-basis: 100%;
+}
+
+.service h2 {
+    font-size: 32px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.service hr {
+    width: 150px;
+    margin-bottom: 32px;
+    border: 2px solid rgb(77, 76, 76);
+}
+
+.portion {
+    flex-basis: 30%;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 4px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portion h3 {
+    font-size: 22px;
+    font-weight: lighter;
+    flex-basis: 100%;
+}
+
+.portion a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    background-color: rgb(77, 76, 76);
+    border-radius: 6px;
+    margin: 12px 0px 24px 0px;
+}
+
+.portion p {
+    margin: 8px 12px;
+    flex-basis: 100%;
+}
+
+.subscribe {
+    flex-basis: 100%;
+    background-color: rgb(77, 76, 76);
+    color: white;
+    text-align: center;
+    padding: 12px 120px 50px 120px;
+}
+
+.subscribe h2 {
+    font-size: 32px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.subscribe hr {
+    width: 150px;
+    margin-bottom: 32px;
+    border: 2px solid white;
+}
+
+.subscribe input {
+    width: 450px;
+    padding: 12px;
+    background-color: rgb(108, 108, 108);
+    border: none;
+    color: rgb(77, 76, 76);
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.subscribe button {
+    padding: 10px 28px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(114, 154, 234);
+    border: none;
+    border-radius: 6px;
+}
+
+footer {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-footer {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(53, 53, 53);
+    padding: 12px 120px 32px 120px;
+}
+
+.main-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-footer ul li {
+    margin-bottom: 10px;
+}
+
+.main-footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-footer i {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.sec-footer {
+    flex-basis: 100%;
+    text-align: center;
+    background-color: rgb(22, 22, 22);
+}
+
+.layout {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 38px;
+    padding: 16px;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+.layout p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+}
+
+.layout a {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    padding: 8px 28px;
+    background-color: rgb(97, 156, 176);
+    border-radius: 24px;
+}

@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+
+/* 
+#575757
+#fbfcff
+#dadada
+ */
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #575757;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.solo {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 64px;
+}
+
+.solo .solo-info {
+    flex-basis: 45%;
+    padding: 0 24px 0 96px;
+}
+
+.solo-info h1 {
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.solo .solo-info p {
+    margin-bottom: 24px;
+    line-height: 1.7;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 32px;
+    padding: 12px 36px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+    width: 180px;
+}
+
+.solo-img {
+    flex-basis: 55%;
+    padding: 36px 0 0 16px;
+}
+
+.solo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.power {
+    background-color: #fbfcff;
+    padding: 64px 38px 38px 38px;
+
+    display: flex;
+}
+
+.power h2 {
+    text-transform: uppercase;
+    font-size: 68px;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.power div {
+    flex-basis: 50%;
+}
+
+.power h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: right;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 82px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.power p {
+    font-size: 20px;
+    line-height: 1.7;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 82px;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 48px;
+    margin-right: 24px;
+}
+
+.price-par {
+    display: flex;
+    align-items: center;
+}
+
+.more {
+    background-color: #575757;
+    color: white;
+    padding: 36px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more-logo {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 32px;
+}
+
+.more-logo h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 38px;
+}
+
+.more-logo img {
+    margin-right: 24px;
+}
+
+.more a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 32px;
+    border-bottom: 2px solid white;
+    padding-bottom: 6px;
+}
+
+.read-more {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.life {
+    display: flex;
+
+    background-color: #dadada;
+}
+
+.life-img {
+    flex-basis: 50%;
+}
+
+.life-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.life-header {
+    flex-basis: 50%;
+    display: flex;
+
+    padding: 36px 36px 36px 52px;
+}
+
+.life-header div:nth-child(1) {
+    flex-basis: 60%;
+    padding: 64px 0px 64px 48px;
+}
+
+.life-header h2 {
+    text-transform: uppercase;
+    font-size: 130px;
+    font-weight: 700;
+    letter-spacing: -10px;
+    line-height: 1.1;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+
+.life-header h3 {
+    font-size: 38px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    padding-left: 8px;
+}
+
+.red {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer p {
+    flex-basis: 100%;
+}

@@ -1,0 +1,57 @@
+body {
+    padding: 15px;
+}
+
+.container, section {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 65vw;
+    height: 600px;
+}
+
+span {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.notes {
+    flex-direction: column;
+}
+
+div, section, span {
+    box-sizing: border-box;
+}
+
+.week span:nth-child(1) {
+    width: 500px;
+    height: 25%;
+}
+
+.week span:nth-child(7) {
+    width: 500px;
+    height: 25%;
+}
+
+.week {
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+.workweek, .weekend {
+    flex-grow: 1;
+    height: 25%;
+}
+
+.week, .notes {
+    height: 400px;
+    justify-content: center;
+}
+
+.reminders, .spec-dates {
+    height: 400px;
+    min-width: 200px;
+}
